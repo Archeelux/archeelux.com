@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Home Page
 ---
 
-{% for post in collections.Post %}
+{% for post in collections.post %}
     <h1 class="leading-tight border-b text-4xl font-semibold mb-4 mt-6 pb-2">{{post.data.title}}</h1>
     <div class="markdown border-b-8 border-teal-900 pb-4">
         {{post.templateContent | safe}}
