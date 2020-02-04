@@ -29,5 +29,3 @@ fields:
     display_utc: true
   hidden: true
   default: now
-pages:
-- src/posts/my-pledge-to-my-self.md
