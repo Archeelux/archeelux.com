@@ -11,5 +11,12 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: layouts/base.njk
 pages:
 - src/posts/my-pledge-to-my-self.md
