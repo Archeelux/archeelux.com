@@ -3,4 +3,7 @@ layout: layouts/base.njk
 title: Home Page
 ---
 
-<h1 class="font-sans antialiased text-5xl">Tailwinty</h1>
+{% for post in collections.Post %}
+    {{post.data.title}}
+    {{post.templateContent | safe}}
+{% endfor %}

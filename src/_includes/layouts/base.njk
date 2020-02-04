@@ -13,12 +13,10 @@
         <title>{{ renderData.title or title or metadata.title }}</title>
         <link rel="stylesheet" href="./styles/bundle.css">
     </head>
-    <body id="top" class="bg-orange-400" itemscope itemtype="http://schema.org/WebPage">
+    <body id="top" itemscope itemtype="http://schema.org/WebPage">
 
-        <div class="m-4 flex bg-white h-full wrapper">
-            <div class="flex-1 flex justify-center items-center">
-                {{ content | safe }}
-            </div>
+        <div class="container mx-auto  mt-8">
+            {{ content | safe }}
         </div>
 
         <script src="./scripts/index.js"></script>

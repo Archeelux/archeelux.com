@@ -1,10 +1,10 @@
 ---
 tags:
-- Post
-- Self
-- Life
+  - Post
+  - Self
+  - Life
 title: My pledge to my self
-layout: ''
-
+layout: "layouts/base.njk"
 ---
+
 Hello
