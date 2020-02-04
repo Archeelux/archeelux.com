@@ -5,4 +5,6 @@ tags:
   - Life
 title: My pledge to my self
 layout: layouts/base.njk
----ayy lmao
+---
+
+ayy lmao
