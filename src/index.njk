@@ -4,6 +4,8 @@ title: Home Page
 ---
 
 {% for post in collections.Post %}
-    {{post.data.title}}
-    {{post.templateContent | safe}}
+    <h1 class="leading-tight border-b text-4xl font-semibold mb-4 mt-6 pb-2">{{post.data.title}}</h1>
+    <div class="markdown border-b-8 border-teal-900 pb-4">
+        {{post.templateContent | safe}}
+    </div>
 {% endfor %}
