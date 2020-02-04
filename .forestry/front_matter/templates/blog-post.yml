@@ -18,5 +18,16 @@ fields:
   label: layout
   hidden: true
   default: layouts/base.njk
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: ''
+    time_format: 
+    display_utc: true
+  hidden: true
+  default: now
 pages:
 - src/posts/my-pledge-to-my-self.md
