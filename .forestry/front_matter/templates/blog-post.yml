@@ -11,3 +11,5 @@ fields:
   type: tag_list
   default: []
   label: Tags
+pages:
+- src/posts/my-pledge-to-my-self.md
