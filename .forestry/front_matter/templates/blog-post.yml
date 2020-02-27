@@ -31,3 +31,4 @@ fields:
   default: now
 pages:
 - src/posts/my-pledge-to-my-self.md
+- src/posts/notion.md
