@@ -1,5 +1,8 @@
 ---
-tags: []
+tags:
+- post
+- " notion"
+- " QoL"
 layout: layouts/base.njk
 date: 2020-02-27T09:56:26Z
 title: Notion
