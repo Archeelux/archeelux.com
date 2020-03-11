@@ -30,5 +30,6 @@ fields:
   hidden: true
   default: now
 pages:
+- src/posts/how-to-use-forestry-io.md
 - src/posts/my-pledge-to-my-self.md
 - src/posts/notion.md
