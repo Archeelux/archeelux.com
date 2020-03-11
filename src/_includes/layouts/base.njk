@@ -15,8 +15,17 @@
     </head>
     <body id="top" itemscope itemtype="http://schema.org/WebPage">
 
-        <div class="container mx-auto  mt-8">
-            {{ content | safe }}
+        <div class="wrapper">
+            {# sidebar #}
+            <div class="fixed bg-indigo-800 w-56 p-2 text-center top-0 left-0">
+                <h2 class="text-2xl text-white">Archeelux</h2>
+                <h4 class="text-gray-400">Arturs Timofejevs</h4>
+            </div>
+
+            {# content #}
+            <div class="container mx-auto  mt-8 mb-8">
+                {{ content | safe }}
+            </div>
         </div>
 
         <script src="./scripts/index.js"></script>
